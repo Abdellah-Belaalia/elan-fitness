@@ -40,9 +40,10 @@
         <section id="contact" class="fitness">
             <div class="balise">
 
-                
+
                 <div class="section-titre">
-                    <h2>Avez-vous des questions?<br>Choisissez-vous un programme?</h2>
+                    <h1>Avez-vous des questions?</h1>
+                    <h2>Choisissez-vous un programme?</h2>
                     <p>Nous serons ravis de répondre à vos questions, n’hésitez pas à nous les envoyer.</p>
                 </div>
                 <div class="contactDisplay">
@@ -64,13 +65,13 @@
                         </article>
                     </div>
                     <div class="formulaire">
-                        <form action="">
+                        <form>
                             <label for="nom">Nom complète</label>
-                            <input type="text" id="nom" placeholder="Nom complet">
+                            <input type="text" id="nom" placeholder="Nom complet" required>
                             <label for="numéro">Télephone</label>
-                            <input type="text" id="numéro" placeholder="Télephone">
+                            <input type="text" id="numéro" placeholder="Télephone" required>
                             <label for="email">E-mail</label>
-                            <input type="email" id="email" placeholder="xyz@mail.com">
+                            <input type="email" id="email" placeholder="xyz@mail.com" required>
                             <label for="abonnements">Abonnement</label>
                             <select name="abonnements" id="abonnements">
                                 <option value="essentiel">Essentiel</option>
@@ -78,8 +79,11 @@
                                 <option value="duo">Duo</option>
                             </select>
                             <label for="text">Message</label>
-                            <textarea name="text" id="text" placeholder="Votre message..."></textarea>
-                            <div class="buttonContact"><button type="button" class="button">Envoyer</button></div>
+                            <textarea name="text" id="text" placeholder="Votre message..." required></textarea>
+                            <div class="buttonContact">
+                                <button type="submit" class="button">Envoyer</button>
+                                <button type="reset" class="button">Réinitialiser</button>
+                            </div>
                         </form>
                     </div>
                 </div>

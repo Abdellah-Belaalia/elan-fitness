@@ -103,7 +103,6 @@ button:focus-visible {
   letter-spacing: 1px;
   margin-bottom: 12px;
 }
-
 .bouton {
   display: inline-block;
   padding: 14px 28px;
@@ -175,6 +174,7 @@ button:focus-visible {
 
 .en-tete {
   position: sticky;
+  align-items: flex-start;
   top: 0;
   z-index: 10;
   background-color: #FFFFFF;
@@ -254,6 +254,7 @@ button:focus-visible {
   line-height: 1.6;
   color: #4B5563;
   margin-bottom: 32px;
+  max-width: 640px;
 }
 
 .boutons {
@@ -522,6 +523,7 @@ button:focus-visible {
 
 .pied-de-page {
   padding: 48px 0 32px;
+  align-items: flex-end;
   background-color: #0F1B2D;
   color: #FFFFFF;
 }

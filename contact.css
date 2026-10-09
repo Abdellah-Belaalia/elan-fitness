@@ -8,7 +8,7 @@
   width: 600px;
   height: 200px;
   border-radius: 20px;
-  resize:vertical 
+  resize: vertical
 }
 
 .contactDisplay {
@@ -46,6 +46,7 @@ input {
   border: 1px solid gray;
   border-radius: 10px;
   background-color: #f7f8fa;
+  height: 620px;
 }
 
 select {
@@ -57,8 +58,7 @@ select {
   color: rgba(0, 0, 0, 0.551);
   font-weight: bold;
   padding: 0 5px;
-  /* text-align: center; */
-  height: 30px;
+  height: 38px;
   border: 2px rgb(0, 0, 0) solid;
   border-radius: 16px;
 }
@@ -71,6 +71,7 @@ input {
   display: flex;
   gap: 24px;
   margin: 24px;
+  height: 620px;
 }
 
 .formulaire {
@@ -84,6 +85,7 @@ input {
 
 .formulaire input {
   width: 600px;
+  height: 38px;
   padding: 0px 12px;
   border: 2px black solid;
   border-radius: 15px;
@@ -98,7 +100,7 @@ form {
 .buttonContact {
   display: flex;
   padding: 10px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 main {
@@ -140,7 +142,7 @@ footer {
   padding: 24px;
   background-color: #f7f8fa;
   box-shadow: none;
-  margin: 24px;
+  margin: 16px;
 }
 
 .informationBox .icone {
@@ -166,17 +168,19 @@ footer {
   margin: 0 auto;
   padding: 0 24px;
 }
-@media (min-width : 600px){
-  html{
-    flex-direction: column;
-  }
-}
-.contactDisplay{
-  display: flex;
-}
-@media (max-width : 600px){
-  .contactDisplay{
+
+@media (min-width : 600px) {
+  html {
     flex-direction: column;
   }
 }
 
+.contactDisplay {
+  display: flex;
+}
+
+@media (max-width : 600px) {
+  .contactDisplay {
+    flex-direction: column;
+  }
+}
