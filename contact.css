@@ -24,12 +24,8 @@ input::placeholder {
 textarea {
   font-weight: bold;
   /* text-align: center; */
-  padding-top: 3%;
+  padding: 13px;
   border: 2px black solid;
-}
-
-textarea text{
-  te
 }
 
 input {
@@ -60,10 +56,11 @@ select {
 select {
   color: rgba(0, 0, 0, 0.551);
   font-weight: bold;
+  padding: 0 5px;
   /* text-align: center; */
   height: 30px;
   border: 2px rgb(0, 0, 0) solid;
-  border-radius: 10px;
+  border-radius: 16px;
 }
 
 input {
@@ -87,7 +84,7 @@ input {
 
 .formulaire input {
   width: 600px;
-  padding: 5px;
+  padding: 0px 12px;
   border: 2px black solid;
   border-radius: 15px;
 }
@@ -113,10 +110,6 @@ main {
 
 footer {
   margin-top: 20px;
-}
-
-header {
-  margin-bottom: 20px;
 }
 
 .button {
@@ -173,3 +166,17 @@ header {
   margin: 0 auto;
   padding: 0 24px;
 }
+@media (min-width : 600px){
+  html{
+    flex-direction: column;
+  }
+}
+.contactDisplay{
+  display: flex;
+}
+@media (max-width : 600px){
+  .contactDisplay{
+    flex-direction: column;
+  }
+}
+
